@@ -1,0 +1,33 @@
+body {
+	margin-bottom: 30px;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: cyan;
+	background-size: 1400px 750px;
+}
+
+#bor {
+	background-color: DarkTurquoise;
+}
+
+#color {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+a:link, a:visited {
+	font-size: 18px;
+	text-align: center;
+	margin-left: 45px;
+	font-family: Monospace;
+}
+
+a:hover {
+	opacity: 0.6;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 45px;
+	font-family: Monospace;
+}

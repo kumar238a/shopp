@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title style="font-color:white">Log In | Cell Care</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<div id="color">
+	<img src="mobilestore.jpg" class="img-thumbnail" height="70" width="160"
+		align="center"></img>
+</div>
+
+
+<style>
+.btn:hover {
+	border: 2px solid white;
+}
+
+#tcolor {
+	color: black;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+body {
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	background: url(bg.jpg) no-repeat;
+	background-size: 1500px 720px;
+}
+
+h2 {
+	font-size: 24px;
+	color: #303030;
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+
+#small-bottom-border {
+	text-align: center;
+}
+</style>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="Homepage.html">Home</a></li>
+					<li class="active"><a style="color: white"
+						href="LoginPage.html"><span></span>Login</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a class="text-info" href="contact.html">Contact Us</a></li>
+					<li><a
+						href="https://play.google.com/store/apps/details?id=com.hostretto.cellcare1&hl=en&gl=US">Download
+							App</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<form style="font-size: 16px;"
+		action="F:\Web Projects\Online Mobile Store Website\src\LOGINresult.html"
+		align="center" border="5px">
+		<br> <br> <br> <br>
+		<div class="login-box">
+			<h1>Login</h1>
+			<div class="textbox">
+				<i class="glyphicon glyphicon-user"></i><input type="email"
+					id="usr" placeholder="Username or Email" required>
+			</div>
+			<div class="textbox">
+				<i class="glyphicon glyphicon-lock"></i> <input type="password"
+					id="psw" placeholder="Password" required>
+			</div>
+
+			<input type="checkbox" class="defaultCheckbox"></input><i> I'm
+				Not a Robot</i><br> <br>
+			<button style="font-size: 20px" type="submit" class="btn btn-info"
+				onclick="myfunc()">Sign in</button>
+			<script>
+	function myfunc() {
+	var v1=document.getElementById("usr").value;
+	var v2=document.getElementById("psw").value;
+	if(v1!="" && v2!=""){
+ 	 alert("Logged In SuccessFullyy ! !");
+	}
+	}
+</script>
+		</div>
+		</center>
+	</form>
+</body>
+</html>
